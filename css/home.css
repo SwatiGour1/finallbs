@@ -1004,6 +1004,75 @@ word-spacing: .1rem;
     width:400px;
      height:300px;
   }
+  /* c3junction */
+  .ch5{
+    color:#0F0771;
+    }
+    .pjun {
+      color: maroon;
+    }
+    .textc{
+      color: #0F0771;
+    }
+    
+    
+  
+    .c3image img{
+      border-radius: none;
+      width: 15rem;
+      height: 13rem;
+      margin-top: 0.5rem;
+      margin-left: 2rem;
+      border: none;
+      overflow-clip-margin: content-box;
+      overflow: clip;
+    
+  }
+  .c3h1{
+    font-size: 5rem;
+    /* transform: translate(-50%,-50%); */
+    letter-spacing: 0.05em;
+    background: linear-gradient(to top ,blue,red,black);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    line-height: 3em;
+    animation: c3junction 50s linear infinite;
+    -webkit-text-stroke: 0.04em white;
+    text: stroke 0.04em;
+    }
+  
+  @keyframes c3junction{
+    100%{
+      background-position: 0 30em;
+    }
+  }
+  
+  .junction {
+    height: 28rem;
+    border: 2px solid;
+    background-color: var(--main-color);
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly ;
+  }
+  
+  .junction h1 {
+    text-align: center;
+    margin-top: 1rem;
+    color: var(--color);
+    font-weight: 600;
+    font-family:var(--font-family);
+    font-size: 3rem;
+  }
+  .form-check-junction{
+    font-size: small;
+    text-transform:capitalize;
+  }
+  
+  .juncpara{
+    font-size: 10px;
+    color: #0F0771;
+  }
 @media screen and (min-width:256px) and (max-width:468px){
  
    .header p{
@@ -1190,6 +1259,15 @@ footer{
 }
 .mockDes,.mockDes1{
   font-size: 1rem !important;
+}
+.junction{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.junction .card{
+  margin: 2px;
 }
 }
 @media screen and (min-width:400px) and (max-width:468px){
