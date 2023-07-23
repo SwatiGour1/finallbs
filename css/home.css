@@ -1411,9 +1411,14 @@ footer{
     margin-left:70px !important;
   }
 }
-@media screen and (min-width:600px) and (max-width:768px){
+@media screen and (min-width:600px) and (max-width:690px){
   .headh{
     margin-top: 58px !important;
+  }
+}
+@media screen and (min-width:691px) and (max-width:768px){
+  .headh{
+    margin-top: 70px !important;
   }
 }
 @media screen and (max-width:990px){
