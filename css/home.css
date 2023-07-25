@@ -1523,9 +1523,13 @@ footer{
     font-size: 1rem;
   } 
 }
-  @media screen and (min-width:1500px)and (max-width:1800px){
+  @media screen and (min-width:1500px)and (max-width:1700px){
     .headh{
       margin-top: 150px;
     }
   }
-
+  @media screen and (min-width:1701px)and (max-width:1800px){
+    .headh{
+      margin-top: 170px;
+    }
+  }
