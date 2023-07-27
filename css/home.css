@@ -1533,3 +1533,13 @@ footer{
       margin-top: 170px;
     }
   }
+  @media screen and (min-width:1801px)and (max-width:1900px){
+    .headh{
+      margin-top: 190px;
+    }
+  }
+   @media screen and (min-width:1901px)and (max-width:2000px){
+    .headh{
+      margin-top: 200px;
+    }
+  }
