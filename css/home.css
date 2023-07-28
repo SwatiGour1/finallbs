@@ -90,7 +90,7 @@ nav a {
 
 #carouselExampleSlidesOnly img {
   height: 500px;
-  /* width:1300px; */
+  width:1300px;
 }
 
 .facilties {
@@ -650,7 +650,7 @@ margin-left: 10%;
     /* activity */
     .container-activities{
       overflow-x: hidden;
-    
+    overflow-y: hidden;
      }
      .container-activities h3{
       font-size: 28px;
@@ -858,9 +858,10 @@ border-left:4px solid orange;
 .crbtn a{
   background-color:var(--main-color);
   color:var(--color);
-  padding: 20px;
+  padding: 30px;
   text-decoration: none;
   font-family:var(--font-family);
+  font-size: 1.4rem;
 }
 .crbtn p{
   font-family:var(--font-family);
