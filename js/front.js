@@ -8,7 +8,7 @@ const startingCount=Number(counter.innerHTML);
 const incr=targetcount/100;
 if(startingCount<targetcount){
     counter.innerHTML=`${Math.round(startingCount+incr)}`;
-    setTimeout(updatecounter,100)
+    setTimeout(updatecounter,200)
 }
 else{
     counter.innerHTML=targetcount;
