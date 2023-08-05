@@ -163,6 +163,15 @@ h5 {
 .buttonbox{
   /* width: 600px; */
   font-weight:bold;
+  /* margin: auto; */
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.buttonbox a{
+  text-align: center;
 }
 
 .leftbtn , .rightbtn{
@@ -170,16 +179,19 @@ h5 {
   color: var(--main-color);
   border: none;
   padding: 10px 50px;
-  height: 40px;
+  height: 50px;
   text-decoration: none;
   font-size:1.5rem;
+  width: 220px;
+  margin: 3px;
 }
 .leftbtn{
-  margin-left: 280px;
+  /* margin-left: 280px; */
+
 }
-.rightbtn{
+/* .rightbtn{
   margin-left: 4px;
-}
+ } */
 /* .rightbtn {
   background-color: var(--color);
   color: var(--main-color);
@@ -1108,20 +1120,20 @@ word-spacing: .1rem;
 .lr{
   margin-left: 10px !important;
 }
-   .header p{
+   /* .header p{
     font-size:.7rem !important;
     margin-left:2.7rem !important;
     /* display: none; */
-  }
-  .header img{
+  /* } */
+  /* .header img{
     height: 80px !important;
     width: 80px !important;
     margin-left:0px;
-  } 
-  .header strong{
+  }  */
+  /* .header strong{
     font-size: 1rem !important;
     margin-left: 2rem !important;
-  }
+  } */ 
   .headh{
     font-size: .5rem !important;
     margin-top:34px  !important;
@@ -1142,17 +1154,24 @@ word-spacing: .1rem;
 
   
   .leftbtn,.rightbtn{
-   padding:10px 12px;
-   margin: 2px;
+   /* padding:10px 12px; */
+   /* margin: 2px; */
+    width: 2000px;
+
   }
   .leftbtn{
-    margin-left:35px;
-  }
+    margin-left:22px !important;
+  } 
   
   .buttonbox a{
-    font-size:1rem;
+    font-size:1.2rem !important;
+    text-align: center;
   }
-
+.buttonbox{
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* justify-content:center; */
+}
   .ffac {
     display: flex !important;
     flex-direction:row !important;
@@ -1362,7 +1381,6 @@ width: 100%;
   .lr {
     height: 50px;
     padding: 1rem;
-    margin-left: 0;
   } 
 
 /* 
@@ -1413,16 +1431,18 @@ width: 100%;
     width: 70px;
     height: 60px;
   }
-  .leftbtn,.rightbtn{
-    padding:10px 15px;
-    margin: 2px;
-   }
+   .leftbtn,.rightbtn{
+    /* padding:10px 15px; */
+    /* margin: 2px; */
+    
+   } 
    .leftbtn{
-     margin-left:100px;
+     margin-left:10px !important;
    }
    
    .buttonbox a{
      font-size:1rem;
+     text-align: center;
    }
 
   .fabout h2 {
@@ -1537,7 +1557,6 @@ width: 100%;
   .lr {
     height: 50px;
     padding: 1rem;
-    margin-left: 0;
   }
   #flogo1{
     margin-left: 85px;
@@ -1549,17 +1568,21 @@ width: 100%;
   #mainln{
     font-size: 1.1rem;
  }
- .leftbtn,.rightbtn{
+ /* .leftbtn,.rightbtn{
   padding:10px 15px;
   margin: 2px;
- }
+ } */
  .leftbtn{
-   margin-left:200px;
+   /* margin-left:200px; */
  }
  
  .buttonbox a{
-   font-size:1rem;
+   font-size:1.3rem;
+   text-align: center;
  }
+ .fabout h2 {
+  font-size: 1.7rem;
+}
  .subn{
   font-size: .9rem;
  }
@@ -1639,16 +1662,17 @@ iframe{
   width: 380px ;
   height: 300px;
 }
-.leftbtn,.rightbtn{
+/* .leftbtn,.rightbtn{
   padding:10px 15px;
   margin: 2px;
- }
+ } */
  .leftbtn{
-   margin-left:320px;
+   /* margin-left:320px; */
  }
  
  .buttonbox a{
-   font-size:1rem;
+   font-size:1.3rem;
+   text-align: center;
  }
  .container-activities .card-text{
   font-size: 1rem;
