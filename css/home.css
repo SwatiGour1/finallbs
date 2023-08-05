@@ -2,7 +2,7 @@
   --main-color: #0F0771;
   --color: white;
   --font-family: 'Roboto', sans-serif;
-  --font-size:1rem;
+  --font-size:1.1rem;
 }
 
 .head {
@@ -81,17 +81,17 @@ nav a {
 .lr {
   background-color: yellow;
   text-align: center;
+  margin: 4px;
 }
 
 .lr:hover {
   background-color: var(--main-color);
   color: white;
 }
-
-#carouselExampleSlidesOnly img {
-  height: 500px;
-  width:1300px;
+#LearnQoch{
+  margin-left:30px;
 }
+
 
 .facilties {
   display: flex;
@@ -147,7 +147,7 @@ h5 {
 .fabout p {
   margin-top: 0;
   margin-bottom: 1rem;
-  font-family: var(--font-familiy);
+  font-family:var(--font-family);
 }
 
 .faboutp {
@@ -156,37 +156,39 @@ h5 {
 .quotes span{
   font-style: normal;
 }
-
-
-
-
-
 .fhr {
- font-size: var(--font-familiy);
+ font-size: var(--font-family);
 } 
 
 .buttonbox{
-  width: 500px;
+  /* width: 600px; */
+  font-weight:bold;
 }
 
-.leftbtn {
+.leftbtn , .rightbtn{
   background-color: var(--color);
   color: var(--main-color);
   border: none;
   padding: 10px 50px;
-  margin-left: 30px;
   height: 40px;
   text-decoration: none;
+  font-size:1.5rem;
 }
-
-.rightbtn {
+.leftbtn{
+  margin-left: 280px;
+}
+.rightbtn{
+  margin-left: 4px;
+}
+/* .rightbtn {
   background-color: var(--color);
   color: var(--main-color);
   border: none;
   padding: 10px 50px;
   text-decoration: none;
-  margin-left: 4px;
-}
+  font-size:1.5rem;
+
+} */
 .image-row {
   justify-content: center;
   }
@@ -203,7 +205,9 @@ h5 {
 .glrgrp {
   flex-wrap: wrap;
 }
-
+.con1{
+  margin-left:18px;
+}
  .groups {
   display: flex;
   justify-content: space-evenly;
@@ -215,7 +219,7 @@ h5 {
 }
 
 .counter{
-  font-size: 1.3rem !important;
+  font-size: 2rem !important;
   font-weight: bold;
 }
 .numbers div {
@@ -225,7 +229,7 @@ h5 {
   color: var(--main-color);
 }
 .cr span {
-  font-size: 1.25rem;
+  font-size:2rem;
 }
 
 .cr p {
@@ -236,7 +240,7 @@ h5 {
   font-weight: bold;
 }
 .numc img{
-  margin-left: 46px;
+  margin-left: 50px;
 }
 .linked{
   text-decoration: none;
@@ -250,6 +254,23 @@ footer ul li {
 }
 .subln{
   margin-right: 11px;
+}
+/* library */
+.benePara{
+  font-size: var(--font-size);
+  text-align: justify;
+  font-family: var(--font-family);
+  padding-right: 20px;
+}
+.library li{
+font-size: 1.2rem;
+}
+.library b{
+  font-size: 1.5rem;
+}
+/* lab */
+.lab{
+  margin-right:50px;
 }
 /* about */
 .background-image-overlay {
@@ -313,10 +334,6 @@ footer ul li {
   width: 100%;
 }
 
-
-
-
-
 .vs p {
   font-family:var(--font-family);
 }
@@ -346,7 +363,7 @@ footer ul li {
 }
 /* news page */
 .container-news-page{
-  overflow-x:hidden;
+  /* overflow-x:hidden; */
   background-color:#fff;
   margin-bottom: 12px;
  }
@@ -419,14 +436,14 @@ footer ul li {
 }
 
 .container-news-page .card{
-margin-top: 4%;
+/* margin-top: 4%; */
 box-shadow:  4px 4px 4px 4px rgba(0, 0, 0, 0.201), /* Top shadow */
 0px -4px 6px -2px rgba(0, 0, 0, 0.1), /* Bottom shadow */
 4px 0px 6px -2px rgba(0, 0, 0, 0.1), /* Left shadow */
 -4px 0px 6px -2px rgba(0, 0, 0, 0.1); /* Right shadow */
 transition: transform 0.3s ease-in-out;
-max-width: 80%;
-margin-left: 10%;
+/* max-width: 80%; */
+/* margin-left: 10%; */
 
 }
 
@@ -471,6 +488,14 @@ margin-left: 10%;
   background-color:#f1f1f9;
 }
 
+/* landandbuilidg */
+.limg{
+  box-shadow: 8px 8px 8px 0px #23222b;
+}
+ .landtext{
+    margin-top: 25px !important;
+  }
+
 /* contact us */
 .container-conatct-us{
   width: 100%;
@@ -497,8 +522,6 @@ margin-left: 10%;
   
 .container-conatct-us .col-md-4,
  .col-md-8 {
-    /* padding-right: 0; */
-    /* padding-left: 0; */
     padding: 0;
     margin: 0;
     
@@ -559,9 +582,7 @@ margin-left: 10%;
     width: 100%;
     
     border:1px solid #0F0771;
-    
-   
-  }
+    }
   
   .container-conatct-us input::placeholder {
     color:black;
@@ -662,7 +683,7 @@ margin-left: 10%;
       margin-bottom: 3%;
     }
     
-    .button-container{
+    /* .button-container{
       text-align: center;
       display: flex;
       justify-content: center;
@@ -676,7 +697,7 @@ margin-left: 10%;
       border: none;
       cursor: pointer;
      
-    }
+    } */
     .container-activities .button-activities a{
         text-decoration: none;
         color: rgb(255, 255, 255);
@@ -707,7 +728,7 @@ margin-left: 10%;
       color:var(--main-color);
       /* font-size: 24px; */
       animation: bottomToTop 2s ease-in-out;
-     margin-left: 24px;
+     margin-left: 20px;
     }
     .container-activities .card-text{
       font-size:var(--font-size);
@@ -717,7 +738,7 @@ margin-left: 10%;
     }
     
     .container-activities .img-fuild{
-      max-width: 70%;
+      max-width: 85%;
       height: auto;
       animation: bottomToTop 2s ease-in-out;
       margin-left: 10%;
@@ -744,7 +765,9 @@ margin-left: 10%;
       text-align: justify;
       font-family: var(--font-family);
     }
-    
+   .container-activities .nimg{
+      max-width: 70%;
+    }
 /* .training */
 .training3{
   margin-left: 1rem;
@@ -822,6 +845,7 @@ font-size: 1.1rem;
   font-family: var(--font-family);
   font-size: var(--font-size);
   word-spacing: .2px;
+  text-align: justify;
 }
 .adbtn a{
   text-decoration: none;
@@ -853,6 +877,7 @@ border-left:4px solid orange;
 .ug{
   font-size: var(--font-size);
   font-family: var(--font-family);
+  text-align: justify;
 }
 /* course */
 .crbtn a{
@@ -890,10 +915,10 @@ word-spacing: .1rem;
 
 .mockDes,.mockDes1{
   text-align: justify;
-  font-size:1.2rem;
+  font-size:var(--font-size);
 }
 .Paragra{
-  font-size: 1.2rem;
+  font-size:var(--font-size);
 }
 .mockHeading1{
   color: #082E66;
@@ -952,6 +977,9 @@ word-spacing: .1rem;
   }  
   .alumnicon .card .content p{
     font-size: var(--font-size);
+    text-align:justify;
+    font-family: var(--font-family);
+    padding: 1px;
   }
   /* award */
   .award img{
@@ -960,6 +988,9 @@ word-spacing: .1rem;
   .award h5{
     font-size: 1rem;
     margin-left: 20px;
+  }
+  .award1 p{
+    text-align: justify;
   }
   /* committee */
   .commitee .card img {
@@ -1071,6 +1102,12 @@ word-spacing: .1rem;
   }
 @media screen and (min-width:256px) and (max-width:468px){
  
+.navbar-brand{
+  margin-left: 9px !important;
+}
+.lr{
+  margin-left: 10px !important;
+}
    .header p{
     font-size:.7rem !important;
     margin-left:2.7rem !important;
@@ -1099,24 +1136,23 @@ word-spacing: .1rem;
     font-size: 1rem !important;
   }
   .quotes span{
-    font-size:1.5rem ;
+    font-size:1.5rem;
     margin-top: 200rem !important;
   }
 
-  .buttonbox{
-    width:200px !important;
-  }
+  
   .leftbtn,.rightbtn{
-   padding:5px;
+   padding:10px 12px;
    margin: 2px;
   }
   .leftbtn{
-    margin-left: 4px;
+    margin-left:35px;
   }
-  .buttonbox a{
-    font-size:.8rem;
   
+  .buttonbox a{
+    font-size:1rem;
   }
+
   .ffac {
     display: flex !important;
     flex-direction:row !important;
@@ -1127,26 +1163,28 @@ word-spacing: .1rem;
     margin-left:4rem !important;
     margin-right: 4rem !important;
   }
-  
+  .flogo #factext{
+    margin-left: 16px !important;
+  }
   .student{
     margin-left: 10px;
   }
   
   .groups img{
-    width: 120px;
-    height: 100px;
+    width: 60px;
+    height: 60px;
   }
   .counter{
-    font-size:2rem !important;
+    font-size:1.3rem !important;
   }
   .cr{
-    margin-bottom: 5rem !important;
+    margin-bottom: 3rem !important;
   }
   .cr p{
-    font-size:2.2rem ;
+    font-size:1rem ;
   }
   .numc img{
-   margin-left: 89px !important;
+   margin-left: 40px !important;
   }
   #flogo3 {
     display: none;
@@ -1155,7 +1193,7 @@ word-spacing: .1rem;
     font-size:.5rem !important;
   }
   .text{
-    font-size:1rem !important ;
+    font-size:1rem !important;
   
   }
  .mainln{
@@ -1182,9 +1220,11 @@ footer{
 
 .aboutp{
   font-size: 1.1rem !important;
-  /* text-align:right; */
   }
-  
+  .comtext{
+    font-size: 1rem;
+    /* text-align: justify; */
+  }
 .prin{
   display: flex;
   flex-direction: column;
@@ -1265,6 +1305,45 @@ footer{
 .junction .card{
   margin: 2px;
 }
+.container-news-page .row{
+  margin: 1px;
+}
+.table td{
+  font-size:.7rem;
+}
+.container-activities .card{
+  margin-bottom: 20px;
+}
+.container-activities .img-fuild{
+  max-width: 100%;
+  margin-left: 1px;
+}
+.landtext{
+  margin-top: 40px !important;
+}
+.library li{
+  font-size: 1rem;
+  }
+  .library b{
+    font-size: 1rem;
+  }
+  .benePara{
+    padding: 1px 6px;
+  }
+  .lab{
+    margin-right:10px !important;
+  }
+  .container-conatct-us .card-body{
+    margin-left: 50px;
+  }
+  .form-group input{
+text-align: center;
+width: 100%;
+  }
+  iframe{
+    width: 250px;
+    height: 250px;
+  }
 }
 @media screen and (min-width:400px) and (max-width:468px){
 .headh{
@@ -1273,6 +1352,12 @@ footer{
 }
 @media screen and (min-width:469px) and (max-width:768px) {
 
+  .navbar-brand{
+    margin-left: 9px;
+  }
+  .lr{
+    margin-left: 10px !important;
+  }
 
   .lr {
     height: 50px;
@@ -1280,7 +1365,7 @@ footer{
     margin-left: 0;
   } 
 
-
+/* 
   .header p{
     font-size: .7rem !important;
     }
@@ -1290,7 +1375,7 @@ footer{
   } 
   .header strong{
     font-size: 1rem !important;
-  }
+  } */
   .headh{
     font-size: .7rem !important;
        margin-top:48px!important;
@@ -1311,25 +1396,34 @@ footer{
   }
 
   .flogo {
-    margin-left: 1rem;
-    margin-right: 1rem;
+    /* margin-left: 1rem; */
+    /* margin-right: 1rem; */
   }
 
   #flogo1 {
-    margin-left: 20px;
+    margin-left: 10px !important;
   }
-
 
   .flogo p {
     text-align: center;
-    font-size: 1.2rem;
-    /* width: 100%; */
+    font-size: .9rem;
   }
 
   .ffac img {
-    width: 100px;
-    height: 80px;
+    width: 70px;
+    height: 60px;
   }
+  .leftbtn,.rightbtn{
+    padding:10px 15px;
+    margin: 2px;
+   }
+   .leftbtn{
+     margin-left:100px;
+   }
+   
+   .buttonbox a{
+     font-size:1rem;
+   }
 
   .fabout h2 {
     font-size: 1.7rem;
@@ -1338,10 +1432,10 @@ footer{
   .fhr {
     margin-left: 1px;
   }
-
-  .button-box {
-    font-size: 1.2rem;
-  }
+.aboutp{
+  font-size: 1rem !important;
+}
+  
 
   #f1 {
     margin-left: 20px;
@@ -1366,7 +1460,7 @@ footer{
 }
 
 .sp1,.sp2{
-  margin-left: 250px;
+  margin-left: 240px !important;
   font-size: 1rem;
   margin-top: 0% !important; 
   text-align: right;
@@ -1381,10 +1475,9 @@ footer{
   font-size:1rem;
 }
 .container-activities .card-text{
-  font-size: .6rem;
+  font-size: .7rem !important;
 }
 .award img{
-  /* margin-left:150px!important; */
   width: 180px;
   margin-top: 25px;
 }
@@ -1411,6 +1504,13 @@ footer{
   .commitee img{
     margin-left:70px !important;
   }
+  .container-activities .img-fuild{
+    max-width: 100% !important;
+  }
+  iframe{
+    height: 200px !important;
+    width: 300px !important;
+  }
 }
 @media screen and (min-width:600px) and (max-width:690px){
   .headh{
@@ -1419,19 +1519,18 @@ footer{
 }
 @media screen and (min-width:691px) and (max-width:768px){
   .headh{
-    margin-top: 70px !important;
+    margin-top: 71px !important;
   }
 }
 @media screen and (max-width:990px){
   
-  .header img{
-    margin-right: 1px;
+  .navbar-brand{
+    margin-left: 9px;
   }
-  .header p {
-    font-size: 1.3rem;
-    margin-top: 10px;
-    /* text-align: center; */
+  .lr{
+    margin-left: 10px !important;
   }
+
  .container-fluid a {
     font-size: 1.5rem;
   } 
@@ -1450,6 +1549,17 @@ footer{
   #mainln{
     font-size: 1.1rem;
  }
+ .leftbtn,.rightbtn{
+  padding:10px 15px;
+  margin: 2px;
+ }
+ .leftbtn{
+   margin-left:200px;
+ }
+ 
+ .buttonbox a{
+   font-size:1rem;
+ }
  .subn{
   font-size: .9rem;
  }
@@ -1464,7 +1574,7 @@ footer{
   width: 700px;
 }
 .sp1,.sp2{
-  margin-left: 300px;
+  margin-left: 400px;
   font-size: 1rem;
   margin-top: 0% !important; 
   text-align: right;
@@ -1499,6 +1609,13 @@ footer{
 .aboutp{
   font-size: .8rem;
 }
+iframe{
+  width: 280px ;
+  height: 200px;
+}
+.benePara{
+  font-size: .8rem;
+}
 }
  @media screen and (min-width:992px) and (max-width:1199px){
 .header p{
@@ -1518,6 +1635,52 @@ footer{
   font-size: 1.2rem;
      margin-top:99px;
 }
+iframe{
+  width: 380px ;
+  height: 300px;
+}
+.leftbtn,.rightbtn{
+  padding:10px 15px;
+  margin: 2px;
+ }
+ .leftbtn{
+   margin-left:320px;
+ }
+ 
+ .buttonbox a{
+   font-size:1rem;
+ }
+ .container-activities .card-text{
+  font-size: 1rem;
+ }
+}
+@media screen and (min-width:1400px)and (max-width:3000px){
+  .leftbtn,.rightbtn{
+    padding:10px 15px;
+    margin: 2px;
+   }
+   .leftbtn{
+     margin-left:500px;
+   }
+   
+   .buttonbox a{
+     font-size:1rem;
+   }
+}
+@media screen and (min-width:250px)and (max-width:280px){
+  .headh{
+    margin-top: 23px !important;
+  }
+}
+@media screen and (min-width:281px)and (max-width:300px){
+  .headh{
+    margin-top: 25px !important;
+  }
+}
+@media screen and (min-width:301px)and (max-width:320px){
+  .headh{
+    margin-top: 27px !important;
+  }
 }
 @media screen and (min-width:1200px)and (max-width:1299px){
   .container-fluid a{
