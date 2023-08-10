@@ -328,7 +328,7 @@ font-size: 1.2rem;
 .about p{
   font-size:var(--font-size);
   font-family: var(--font-family);
-  text-align:left;
+  text-align:justify;
   line-height: 30px;
   margin-top: 30px;
 }
@@ -1660,4 +1660,43 @@ iframe{
     .headh{
       margin-top: 240px;
     }
+  }
+  @media screen and (min-width:1400px)and (max-width:2000px){
+    .fabout h2{
+      font-size: 2.5rem;
+    }
+    .fabout span{
+      font-size: 2rem;
+    }
+    .faboutp{
+      font-size: 1.2rem;
+    }
+    .glryy img{
+      height: 250px;
+      width: 250px;
+    }
+    .about p,.aboutp{
+      font-size: 1.3rem;
+    }
+    .msg{
+      font-size: 1.3rem;
+    }
+    .sp1,.sp2{
+      font-size: 1.2rem;
+    }
+    .award1 p{
+      font-size: 1.2rem;
+    }
+    .container-activities .card-text{
+      font-size: 1.3rem;
+    }
+    .mockDes,.mockDes1{
+      font-size: 1.3rem;
+    }
+    .Paragra,.benePara,.pg,.ug{
+      font-size: 1.3rem;
+    }
+   .form-check-junction{
+    font-size: .9rem;
+   }
   }
