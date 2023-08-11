@@ -127,8 +127,8 @@
       <div class="container d-flex justify-content-center align-items-center">
         <img src="image/messagecrop.jpeg" alt="Your Image" class="img-fluid pt-5">
       </div>
-      <h1 class="text-white text-center mt-5  fw-bold">Thank You for Connecting with us</h1>
-      <p class="text-white text-center"> we will always with you and appreciate your message.</p>
+      <h1 class=" text-center mt-5  fw-bold">Thank You for Connecting with us</h1>
+      <p class=" text-center"> we will always with you and appreciate your message.</p>
   </div>
     <footer class="pt-5">
       <div class="container-fluid" style="background-color: #0F0771;">

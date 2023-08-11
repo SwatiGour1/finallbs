@@ -1057,10 +1057,10 @@ word-spacing: .1rem;
     color: #0F0771;
   }
   .div9{
-    background: linear-gradient(to right, #15139c, #0c085b);
+    /* background: linear-gradient(to right, #15139c, #0c085b); */
     margin: 20px;
    padding: 10px;
-
+color: var(--main-color);
 } 
 
   

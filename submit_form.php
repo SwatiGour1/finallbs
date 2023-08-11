@@ -24,7 +24,8 @@ if ($conn->connect_error) {
 $sql = "INSERT INTO form (name, email, lastname, mobile, message) VALUES ('$name', '$email', '$lastname', '$mobile', '$message')";
 
 if ($conn->query($sql) === TRUE) {
-    echo "Data submitted successfully!";
+    // echo "Data submitted successfully!";
+    include "message.php";
 } else {
     echo "Error: " . $sql . "<br>" . $conn->error;
 }
