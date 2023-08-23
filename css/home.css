@@ -4,7 +4,11 @@
   --font-family: 'Roboto', sans-serif;
   --font-size:1.1rem;
 }
-
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
 .head {
   background-color: var(--main-color);
   width:100%;
@@ -23,7 +27,15 @@
 .headh {
   animation: blink 1s linear infinite;
   color: yellow;
-  margin-top: 130px;
+  top: 80%;
+  left:50%;
+  position: absolute;
+  text-align: center;
+   transform: translate(-50%, -50%);
+}
+.tophead{
+  position: relative;
+  width: 100%;
 }
 
 @keyframes blink {
@@ -134,7 +146,6 @@ nav a {
   font-weight: 700;
 }
 
-/* habout */
 .fabout h2,
 h5 {
   font-family:var(--font-familiy);
@@ -187,7 +198,6 @@ h5 {
   margin-top: 20px;
   max-width: 250px;
 }
-/* number */
 .glrgrp {
   flex-wrap: wrap;
 }
@@ -214,9 +224,7 @@ h5 {
 .numh2{
   color: var(--main-color);
 }
-.cr span {
-  /* font-size:2rem; */
-}
+
 .plus{
   font-size: 2.5rem;
 }
@@ -243,7 +251,6 @@ footer ul li {
 .subln{
   margin-right: 11px;
 }
-/* library */
 .benePara{
   font-size: var(--font-size);
   text-align: justify;
@@ -256,11 +263,9 @@ font-size: 1.2rem;
 .library b{
   font-size: 1.5rem;
 }
-/* lab */
 .lab{
   margin-right:50px;
 }
-/* about */
 .background-image-overlay {
   position: relative;
   height: 200px;
@@ -341,7 +346,6 @@ font-size: 1.2rem;
   font-size:var(--font-size);
   text-align: justify;
 }
-/* news page */
 .container-news-page{
   background-color:#fff;
   margin-bottom: 12px;
@@ -355,9 +359,9 @@ font-size: 1.2rem;
 
  .container-news-page .card-details{
   display: none;
-  font-weight: bold;
+  /* font-weight: bold; */
   color:rgb(1, 56, 58);
-  font-size: 12px;
+  font-size:var(--font-family);
   font-family:var(--font-family);
  }
  
@@ -464,7 +468,6 @@ transition: transform 0.3s ease-in-out;
   background-color:#f1f1f9;
 }
 
-/* landandbuilidg */
 .limg{
   box-shadow: 8px 8px 8px 0px #23222b;
 }
@@ -475,7 +478,6 @@ transition: transform 0.3s ease-in-out;
     margin-top: 20px  !important;
   }
 
-/* contact us */
 .container-conatct-us{
   width: 100%;
   justify-content: center;
@@ -646,7 +648,6 @@ transition: transform 0.3s ease-in-out;
     border-color: #0F0771;
     color: #fff;
   }
-    /* activity */
     .container-activities{
       overflow-x: hidden;
     overflow-y: hidden;
@@ -731,7 +732,6 @@ transition: transform 0.3s ease-in-out;
    .container-activities .nimg{
       max-width: 70%;
     }
-/* .training */
 .training3{
   margin-left: 1rem;
   color:black;
@@ -764,7 +764,6 @@ transition: transform 0.3s ease-in-out;
   margin-right: 0rem;
 }
     
-/* Principal */
 .prin img {
   border-radius: 50%;
   float: left;
@@ -800,7 +799,6 @@ font-size: 1.1rem;
     margin-left: 39rem;
     font-size: 1.1rem;
 }
-/* admission */
 
 .pg{
   font-family: var(--font-family);
@@ -830,7 +828,6 @@ border-left:4px solid blue;
 .adbtn4{
 border-left:4px solid orange;
 }
-/* ugpg */
 #div1,#div2,#div3 p{
   font-family: var(--font-family);
   font-size: 1.2rem; 
@@ -840,7 +837,6 @@ border-left:4px solid orange;
   font-family: var(--font-family);
   text-align: justify;
 }
-/* course */
 .crbtn a{
   background-color:var(--main-color);
   color:var(--color);
@@ -857,12 +853,10 @@ border-left:4px solid orange;
 .crbtn h2{
   color:var(--main-color);
 }
-/* bed */
 .bed p{
 font-family: var(--font-family);
 word-spacing: .1rem;
 }
-/* classroom */
 .mockImg{
   width: 350px;
   border-radius: 5px;
@@ -889,7 +883,6 @@ word-spacing: .1rem;
 }
 
 
-/* alumni */
 .alumnicon{
   position: relative;
   width: 1100px;
@@ -941,7 +934,6 @@ word-spacing: .1rem;
     font-family: var(--font-family);
     padding: 1px;
   }
-  /* award */
   .award img{
     margin-left:25px;
   }
@@ -952,7 +944,6 @@ word-spacing: .1rem;
   .award1 p{
     text-align: justify;
   }
-  /* committee */
   .commitee .card img {
     border-radius: 50%;
     width: 15rem;
@@ -987,12 +978,10 @@ word-spacing: .1rem;
     font-family:var(--font-family);
     font-size: 3rem;
   }
-  /* course */
   .course img{
     width:400px;
      height:300px;
   }
-  /* c3junction */
   .ch5{
     color:#0F0771;
     }
@@ -1061,7 +1050,6 @@ word-spacing: .1rem;
     color: #0F0771;
   }
   .div9{
-    /* background: linear-gradient(to right, #15139c, #0c085b); */
     margin: 20px;
    padding: 10px;
 color: var(--main-color);
@@ -1071,14 +1059,8 @@ color: var(--main-color);
   margin: 0 auto;
   padding: 20px;
 }
-.container-other-info .title {
-  /* font-size: 24px; */
-  /* font-weight: bold; */
-  /* margin-bottom: 10px; */
-  /* color:#0F0771 ; */
-}
+
 .container-other-info .list {
-  /* font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
   padding-left: 20px;
   font-size:20px;
 font-family:var(--font-family); 
@@ -1091,10 +1073,9 @@ color: black;
 
 
 .container-other-info .list-item {
-  margin-bottom: 10px; /* Adjust this value to control the gap */
+  margin-bottom: 10px; 
 }
-  
-  
+
  
 @media screen and (min-width:256px) and (max-width:468px){
  
@@ -1107,7 +1088,6 @@ color: black;
 
   .headh{
     font-size: .5rem !important;
-    margin-top:34px  !important;
   }
   .container-fluid a {
     font-size: 1rem !important;
@@ -1334,9 +1314,9 @@ width: 100%;
   }
 }
 @media screen and (min-width:400px) and (max-width:468px){
-.headh{
+/* .headh{
   margin-top: 40px !important;
-}
+} */
 }
 @media screen and (min-width:469px) and (max-width:768px) {
 
@@ -1352,11 +1332,9 @@ width: 100%;
     padding: 1rem;
   } 
 
-
   .headh{
     font-size: .7rem !important;
-       margin-top:48px!important;
-  }
+  } 
   .nav-item a {
     font-size: 1.5rem;
   }
@@ -1482,16 +1460,7 @@ width: 100%;
   }
 }
 
-@media screen and (min-width:600px) and (max-width:690px){
-  .headh{
-    margin-top: 58px !important;
-  }
-}
-@media screen and (min-width:691px) and (max-width:768px){
-  .headh{
-    margin-top: 71px !important;
-  }
-}
+
 @media screen and (max-width:990px){
   
   .navbar-brand{
@@ -1500,7 +1469,9 @@ width: 100%;
   .lr{
     margin-left: 10px !important;
   }
-
+.headh{
+  font-size: 1rem;
+}
  .container-fluid a {
     font-size: 1.5rem;
   } 
@@ -1568,10 +1539,7 @@ width: 100%;
     width: 180px;
     margin-top: 25px;
 }
-.headh{
-  font-size: 1rem;
-     margin-top:78px;
-}
+
 .aboutp{
   font-size: .8rem;
 }
@@ -1597,10 +1565,7 @@ iframe{
 .glrimg1{
   margin-left: 100px;
 }
-.headh{
-  font-size: 1.2rem;
-     margin-top:99px;
-}
+.head
 iframe{
   width: 380px ;
   height: 300px;
@@ -1614,89 +1579,7 @@ iframe{
   font-size: 1rem;
  }
 }
-
-@media screen and (min-width:250px)and (max-width:280px){
-  .headh{
-    margin-top: 23px !important;
-  }
-}
-@media screen and (min-width:281px)and (max-width:300px){
-  .headh{
-    margin-top: 25px !important;
-  }
-}
-@media screen and (min-width:301px)and (max-width:320px){
-  .headh{
-    margin-top: 27px !important;
-  }
-}
-@media screen and (min-width:555px)and (max-width:600px){
-  .headh{
-    margin-top: 52px !important;
-  }
-}
-@media screen and (min-width:650px)and (max-width:690px){
-  .headh{
-    margin-top: 67px !important;
-  }
-}
-@media screen and (min-width:886px)and (max-width:992px){
-  .headh{
-    margin-top: 85px !important;
-  }
-}
-@media screen and (min-width:1120px)and (max-width:1199px){
-  .headh{
-    margin-top: 110px !important;
-  }
-}
-@media screen and (min-width:1200px)and (max-width:1299px){
-  .container-fluid a{
-    font-size: 1rem;
-  } 
-}
-@media screen and (min-width:1450px)and (max-width:1499px){
-  .headh{
-    margin-top: 140px;
-  }
-}
-
-  @media screen and (min-width:1500px)and (max-width:1700px){
-    .headh{
-      margin-top: 150px;
-    }
-  }
-  @media screen and (min-width:1701px)and (max-width:1800px){
-    .headh{
-      margin-top: 170px;
-    }
-  }
-  @media screen and (min-width:1801px)and (max-width:1900px){
-    .headh{
-      margin-top: 190px;
-    }
-  }
-   @media screen and (min-width:1901px)and (max-width:2000px){
-    .headh{
-      margin-top: 200px;
-    }
-  }
-  @media screen and (min-width:2000px)and (max-width:2250px){
-    .headh{
-      margin-top: 210px;
-    }
-  }
-  @media screen and (min-width:2251px)and (max-width:2400px){
-    .headh{
-      margin-top: 220px;
-    }
-  }
-  @media screen and (min-width:2401px)and (max-width:3000px){
-    .headh{
-      margin-top: 240px;
-    }
-  }
-  @media screen and (min-width:1400px)and (max-width:2500px){
+ @media screen and (min-width:1400px)and (max-width:2500px){
     .fabout h2{
       font-size: 2.5rem !important;
     }
@@ -1735,4 +1618,4 @@ iframe{
     font-size: .9rem;
    }
   }
-  
+   
