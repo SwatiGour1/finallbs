@@ -1067,6 +1067,30 @@ word-spacing: .1rem;
 color: var(--main-color);
 } 
 
+.container-other-info {
+  margin: 0 auto;
+  padding: 20px;
+}
+.container-other-info .title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color:#0F0771 ;
+}
+.container-other-info .list {
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding-left: 20px;
+ 
+}
+.container-other-info .list a{
+text-decoration: none;
+color: black;
+}
+
+
+.container-other-info .list-item {
+  margin-bottom: 10px; /* Adjust this value to control the gap */
+}
   
   
  
@@ -1676,8 +1700,8 @@ iframe{
       font-size: 1.2rem;
     }
     .glryy img{
-      height: 250px !important;
-      width: 250px !important;
+      height: 220px !important;
+      width: 300px !important;
     }
     .about p,.aboutp{
       font-size: 1.3rem;
