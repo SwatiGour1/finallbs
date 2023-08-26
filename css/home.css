@@ -1312,12 +1312,16 @@ width: 100%;
     width: 250px;
     height: 250px;
   }
+  .comiti{
+    font-size:larger;
+  }
+   
+  .comiti1{
+    font-size: medium;
+  }
+
 }
-@media screen and (min-width:400px) and (max-width:468px){
-/* .headh{
-  margin-top: 40px !important;
-} */
-}
+
 @media screen and (min-width:469px) and (max-width:768px) {
 
   .navbar-brand{
