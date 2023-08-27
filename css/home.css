@@ -1292,6 +1292,13 @@ footer{
 .junction  ul li{
   font-size: .8rem !important;
 }
+.training   .form-check1{
+  /* width:max-content; */
+}
+.training .form-check-label{
+  font-size: .9rem;
+
+}
 .container-news-page .row{
   margin: 1px;
 }
