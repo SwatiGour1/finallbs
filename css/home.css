@@ -1198,12 +1198,12 @@ footer{
 .prin{
   display: flex;
   flex-direction: column;
-  width:300px !important;
+  width:260px !important;
 }
 .prin img{
   width: 150px;
   height: 150px;
-  margin-left: 60px;
+  margin-left: 40px;
 }
 .msg{
   font-size: 1rem !important;
@@ -1263,6 +1263,13 @@ footer{
 }
 .mockDes,.mockDes1{
   font-size: 1rem !important;
+}
+.heading{
+  font-size: 1rem !important;
+}
+.mockImg{
+  width: 200px;
+  height: 200px;
 }
 .c3h1{
   font-size:2rem !important;
