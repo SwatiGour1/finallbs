@@ -1211,7 +1211,7 @@ footer{
 }
 .sp1,.sp2{
   margin-left: 10px !important;
-  font-size: 1rem !important;
+  font-size: .9rem !important;
   margin-top: 0% !important; 
   text-align: right;
 }
@@ -1292,9 +1292,7 @@ footer{
 .junction  ul li{
   font-size: .8rem !important;
 }
-.training   .form-check1{
-  /* width:max-content; */
-}
+
 .training .form-check-label{
   font-size: .9rem;
 
