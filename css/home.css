@@ -1264,6 +1264,9 @@ footer{
 .mockDes,.mockDes1{
   font-size: 1rem !important;
 }
+.c3h1{
+  font-size:2rem !important;
+}
 .junction{
   display: flex;
   flex-direction: column;
@@ -1272,6 +1275,15 @@ footer{
 }
 .junction .card{
   margin: 2px;
+}
+.junction .card{
+  width: 13rem !important;
+}
+.junction .textc{
+  font-size: .9rem !important;
+}
+.junction  ul li{
+  font-size: .8rem !important;
 }
 .container-news-page .row{
   margin: 1px;
@@ -1319,7 +1331,7 @@ width: 100%;
   .comiti1{
     font-size: medium;
   }
-
+ 
 }
 
 @media screen and (min-width:469px) and (max-width:768px) {
