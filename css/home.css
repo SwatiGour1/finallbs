@@ -1198,15 +1198,15 @@ footer{
 .prin{
   display: flex;
   flex-direction: column;
-  width:260px !important;
+  width:220px !important;
 }
 .prin img{
   width: 150px;
   height: 150px;
-  margin-left: 40px;
+  margin-left: 20px;
 }
 .msg{
-  font-size: 1rem !important;
+  font-size: .9rem !important;
   word-spacing: .1rem;
 }
 .sp1,.sp2{
